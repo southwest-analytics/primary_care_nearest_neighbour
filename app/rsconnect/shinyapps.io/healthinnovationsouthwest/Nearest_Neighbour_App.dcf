@@ -1,0 +1,12 @@
+name: Nearest_Neighbour_App
+title: Nearest_Neighbour_App
+username: healthinnovationsouthwest
+account: healthinnovationsouthwest
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17422055
+bundleId: 12045874
+url: https://healthinnovationsouthwest.shinyapps.io/Nearest_Neighbour_App/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

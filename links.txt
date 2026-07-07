@@ -1,0 +1,74 @@
+PAGE: Census 2021 Landing Page
+https://www.nomisweb.co.uk/sources/census_2021_bulk
+FILE: Census 2021 TS021 - Ethnicity File
+https://www.nomisweb.co.uk/output/census/2021/census2021-ts021.zip
+
+TITLE: Patients Registered at a GP Practice Landing Page
+https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice
+PAGE: Patients Registered at a GP Practice Landing Page - Jan 2026
+https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice/january-2026
+FILE: Patients Registered at a GP Practice – January 2026: Single year of age (GP practice-females)
+https://files.digital.nhs.uk/1F/825710/gp-reg-pat-prac-sing-age-female.zip
+FILE: Patients Registered at a GP Practice – January 2026: Single year of age (GP practice-males)
+https://files.digital.nhs.uk/19/065922/gp-reg-pat-prac-sing-age-male.zip
+FILE: Patients Registered at a GP Practice - January 2026: LSOA (all persons-females-males)
+https://files.digital.nhs.uk/5E/95A783/gp-reg-pat-prac-lsoa-male-female-Jan-26.zip
+FILE: Patients Registered at a GP Practice – January 2026: Mapping (Commissioning Regions- ICBs-SICBLs-PCNs-GP practice)
+https://files.digital.nhs.uk/FB/6E37C6/gp-reg-pat-prac-map.zip
+
+PAGE: English indices of deprivation 2025
+https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025
+FILE: File 7: All ranks, scores, deciles and population denominators for the Indices of Deprivation
+https://assets.publishing.service.gov.uk/media/691ded56d140bbbaa59a2a7d/File_7_IoD2025_All_Ranks_Scores_Deciles_Population_Denominators.csv
+FILE: File 8: Underlying indicators
+https://assets.publishing.service.gov.uk/media/691dec012c6b98ecdbc500d4/File_8_IoD2025_Underlying_Indicators.xlsx
+
+HOME: Open Geography Portal
+https://geoportal.statistics.gov.uk/
+PAGE: Sub ICB Locations to Integrated Care Boards to NHSER
+https://geoportal.statistics.gov.uk/search?sort=Date%20Created%7Ccreated%7Cdesc&tags=LUP_EXACT_SICBL_ICB_NHSER
+FILE: Sub ICB Locations to Integrated Care Boards to NHSER (April 2024) Lookup in EN
+https://geoportal.statistics.gov.uk/maps/cdd2e45c39e14e9eb8280789560f83a9
+PAGE: ONS Postcode Directory
+https://geoportal.statistics.gov.uk/search?q=PRD_ONSPD%20FEB_2026&sort=Date%20Created%7Ccreated%7Cdesc
+FILE: ONS Postcode Directory (February 2026) for the UK
+https://geoportal.statistics.gov.uk/datasets/3080229224424c9cb53c0b48f5a64d27
+
+TITLE: Organisation Data Service (ODS)
+https://digital.nhs.uk/services/organisation-data-service
+PAGE: GP and GP practice related data
+https://digital.nhs.uk/services/organisation-data-service/data-search-and-export/csv-downloads/gp-and-gp-practice-related-data
+FILE: GP Practices
+https://www.odsdatasearchandexport.nhs.uk/api/getReport?report=epraccur
+FILE: Primary Care Networks
+https://www.odsdatasearchandexport.nhs.uk/api/getReport?report=epcn
+FILE: Primary Care Networks – Core Partner Details
+https://www.odsdatasearchandexport.nhs.uk/api/getReport?report=epcncorepartnerdetails
+
+PAGE: NHS Payments to General Practice
+https://digital.nhs.uk/data-and-information/publications/statistical/nhs-payments-to-general-practice
+FILE: NHS Payments to General Practice, England 2024/25, Management Information
+https://digital.nhs.uk/data-and-information/publications/statistical/nhs-payments-to-general-practice/england-2024-25
+
+PAGE: Quality and Outcomes Framework, 2024-25
+https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/2024-25
+FILE: QOF 2024-25: Raw data .csv files
+https://files.digital.nhs.uk/95/4708D7/QOF2425.zip
+
+TITLE: General Practice Workforce
+https://digital.nhs.uk/data-and-information/publications/statistical/general-and-personal-medical-services
+PAGE: General Practice Workforce, 28 February 2026
+https://digital.nhs.uk/data-and-information/publications/statistical/general-and-personal-medical-services/28-february-2026
+FILE: Individual-level CSV - February 2026
+https://files.digital.nhs.uk/B0/FB157E/GPWIndividualCSV.022026.zip
+FILE: Practice-level CSVs - February 2026
+https://files.digital.nhs.uk/9B/CEF8E4/GPWPracticeCSV.022026.zip
+
+TITLE: Primary Care Network Workforce
+https://digital.nhs.uk/data-and-information/publications/statistical/primary-care-network-workforce
+PAGE: Primary Care Network Workforce, 28 February 2026
+https://digital.nhs.uk/data-and-information/publications/statistical/primary-care-network-workforce/28-february-2026
+FILE: Individual-level CSV - February 2026
+https://files.digital.nhs.uk/60/907BC4/PCNWFIndividualCSV.022026.zip
+
+

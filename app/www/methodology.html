@@ -1,0 +1,159 @@
+<div class="content-section">
+
+<h1 style="color: #211752;">Methodology</h1>
+
+<p>
+The Nearest Neighbour Comparison Tool identifies GP Practices and
+Primary Care Networks (PCNs) with similar demographic, socioeconomic,
+clinical, workforce and financial characteristics.
+</p>
+
+<p>
+The objective is to provide more meaningful benchmarking by comparing
+organisations operating in similar circumstances rather than relying
+solely on geographical proximity.
+</p>
+
+<h2 style="color: #00abbd;">Dataset Construction</h2>
+
+<p>
+Two analytical datasets are produced:
+</p>
+
+<ul>
+<li>Practice-level dataset</li>
+<li>Primary Care Network (PCN)-level dataset</li>
+</ul>
+
+<p>
+Individual source datasets are cleaned, transformed and integrated into a
+single record per organisation.
+</p>
+
+<h3 style="color: #00abbd;">Population-weighted Characteristics</h3>
+
+<p>
+Several indicators are only available at Lower Layer Super Output Area
+(LSOA) level.
+</p>
+
+<p>
+For these measures, the registered patient population of each practice is
+used to estimate the characteristics of the practice population.
+</p>
+
+<p>
+Examples include:
+</p>
+
+<ul>
+<li>Ethnicity</li>
+<li>Indices of Deprivation</li>
+<li>Underlying deprivation indicators</li>
+<li>Population density</li>
+</ul>
+
+<h3 style="color: #00abbd;">Demography</h3>
+
+<p>
+Age distributions are summarised using:
+</p>
+
+<ul>
+<li>Population size</li>
+<li>Lower quartile age (Q1)</li>
+<li>Median age</li>
+<li>Upper quartile age (Q3)</li>
+<li>Interquartile range (IQR)</li>
+</ul>
+
+<p>
+Statistics are calculated separately for males, females and the overall
+registered population.
+</p>
+
+<h3 style="color: #00abbd;">Clinical Measures</h3>
+
+<p>
+Clinical indicators include Quality and Outcomes Framework (QOF)
+prevalence registers, achievement measures and personalised care
+adjustment rates.
+</p>
+
+<h3 style="color: #00abbd;">Workforce Measures</h3>
+
+<p>
+Workforce indicators are derived from national General Practice and PCN
+workforce publications and include full-time equivalent staffing levels
+across major staff groups.
+</p>
+
+<h3 style="color: #00abbd;">Financial Measures</h3>
+
+<p>
+Measures are derived from NHS Payments to General Practice and include:
+</p>
+
+<ul>
+<li>Total payments</li>
+<li>Mean payment per registered patient</li>
+<li>Mean payment per weighted registered patient</li>
+</ul>
+
+<h2 style="color: #211752;">Nearest Neighbour Identification</h2>
+
+<p>
+Before matching, all variables are standardised so that each measure has
+an equivalent contribution to similarity calculations.
+</p>
+
+<p>
+Highly correlated variables are removed iteratively. Variables with an
+absolute correlation of 0.975 or greater are excluded until no highly
+correlated pairs remain.
+</p>
+
+<p>
+This reduces duplication of information and prevents certain domains from
+having disproportionate influence on neighbour selection.
+</p>
+
+<h3 style="color: #00abbd;">Distance Calculation</h3>
+
+<p>
+Each organisation is represented as a vector of standardised indicator
+values.
+</p>
+
+<p>
+Similarity is measured using Euclidean distance between organisations.
+Smaller distances indicate greater similarity.
+</p>
+
+<p>
+The distance matrix is calculated across all organisations and the ten
+closest organisations are retained as nearest neighbours.
+</p>
+
+<h3 style="color: #00abbd;">Comparison Groups</h3>
+
+<ul>
+<li><strong>National</strong> – nearest neighbours from England.</li>
+<li><strong>Same Region</strong> – nearest neighbours restricted to the same NHS England region.</li>
+<li><strong>Same ICB</strong> – nearest neighbours restricted to the same Integrated Care Board.</li>
+</ul>
+
+<h2 style="color: #211752;">Important Notes</h2>
+
+<p>
+Nearest neighbours are not performance comparators.
+</p>
+
+<p>
+They are organisations with similar characteristics and operating
+contexts. Differences in outcomes between similar organisations may help
+identify opportunities for quality improvement, service redesign,
+innovation and shared learning.
+</p>
+
+</div>

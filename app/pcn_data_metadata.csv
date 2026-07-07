@@ -1,0 +1,226 @@
+FIELD_NAME,DESCRIPTION,SHORT_DESC,GROUP,TYPE
+PCN_CODE,PCN Code,PCN Code,Organisation,FCT
+PCN_NAME,PCN Name,PCN Name,Organisation,FCT
+ICB_CODE,ICB Code,ICB Code,Organisation,FCT
+ICB_NAME,ICB Name,ICB Name,Organisation,FCT
+NHSER_CODE,NHSE Region Code,NHSE Region Code,Organisation,FCT
+NHSER_NAME,NHSE Region Name,NHSE Region Name,Organisation,FCT
+PCN_POSTCODE,PCN Postcode,PCN Postcode,Organisation,FCT
+LSOA21CD,PCN LSOA21CD,PCN LSOA21CD,Organisation,FCT
+ICB23CD,PCN ICB ONS Code,PCN ICB ONS Code,Organisation,FCT
+EASTING,PCN Easting,PCN Easting,Organisation,GEO
+NORTHING,PCN Northing,PCN Northing,Organisation,GEO
+LAT,PCN Latitude,PCN Latitude,Organisation,GEO
+LNG,PCN Longitude,PCN Longitude,Organisation,GEO
+Q1_FEMALE,Lower Quartile Age (Females),Lower Quartile Age (Females),Demographics,DBL
+Q1_MALE,Lower Quartile Age (Males),Lower Quartile Age (Males),Demographics,DBL
+Q1_PERSONS,Lower Quartile Age (Persons),Lower Quartile Age (Persons),Demographics,DBL
+MEDIAN_FEMALE,Median Quartile Age (Females),Median Quartile Age (Females),Demographics,DBL
+MEDIAN_MALE,Median Quartile Age (Males),Median Quartile Age (Males),Demographics,DBL
+MEDIAN_PERSONS,Median Quartile Age (Persons),Median Quartile Age (Persons),Demographics,DBL
+Q3_FEMALE,Upper Quartile Age (Females),Upper Quartile Age (Females),Demographics,DBL
+Q3_MALE,Upper Quartile Age (Males),Upper Quartile Age (Males),Demographics,DBL
+Q3_PERSONS,Upper Quartile Age (Persons),Upper Quartile Age (Persons),Demographics,DBL
+IQR_FEMALE,Interquartile Range Age (Females),Interquartile Range Age (Females),Demographics,DBL
+IQR_MALE,Interquartile Range Age (Males),Interquartile Range Age (Males),Demographics,DBL
+IQR_PERSONS,Interquartile Range Age (Persons),Interquartile Range Age (Persons),Demographics,DBL
+POPN_FEMALE,Population Size (Females),Population Size (Females),Demographics,DBL
+POPN_MALE,Population Size (Males),Population Size (Males),Demographics,DBL
+POPN_PERSONS,Population Size (Persons),Population Size (Persons),Demographics,DBL
+ETHNICITY_ASIAN_WEIGHTED_PCT,Ethnicity % Asian,Ethnicity % Asian,Demographics,PCT
+ETHNICITY_BLACK_WEIGHTED_PCT,Ethnicity % Black,Ethnicity % Black,Demographics,PCT
+ETHNICITY_MIXED_WEIGHTED_PCT,Ethnicity % Mixed,Ethnicity % Mixed,Demographics,PCT
+ETHNICITY_WHITE_WEIGHTED_PCT,Ethnicity % White,Ethnicity % White,Demographics,PCT
+ETHNICITY_OTHER_WEIGHTED_PCT,Ethnicity % Other,Ethnicity % Other,Demographics,PCT
+POPN_PER_SQ_KM_WEIGHTED,Population Density (Persons per Km2),Population Density (Persons per Km2),Demographics,DBL
+IMD_SCORE_WEIGHTED,Overall Score,Overall Score,IMD Domains and Subdomains,DBL
+INCOME_SCORE_WEIGHTED,Income Score,Income Score,IMD Domains and Subdomains,DBL
+EMPLOYMENT_SCORE_WEIGHTED,Employment Score,Employment Score,IMD Domains and Subdomains,DBL
+EDUCATION_SCORE_WEIGHTED,Education Score,Education Score,IMD Domains and Subdomains,DBL
+HEALTH_SCORE_WEIGHTED,Health Score,Health Score,IMD Domains and Subdomains,DBL
+CRIME_SCORE_WEIGHTED,Crime Score,Crime Score,IMD Domains and Subdomains,DBL
+BARRIERS_SCORE_WEIGHTED,Barriers to Housing and Services Score,Barriers to Housing and Services Score,IMD Domains and Subdomains,DBL
+ENVIRONMENT_SCORE_WEIGHTED,Living Environment Score,Living Environment Score,IMD Domains and Subdomains,DBL
+INCOME_IDACI_SCORE_WEIGHTED,Income IDACI Subdomain Score,IDACI Score,IMD Domains and Subdomains,DBL
+INCOME_IDAOPI_SCORE_WEIGHTED,Income IDAOPI Subdomain Score,IDAOPI Score,IMD Domains and Subdomains,DBL
+EDUCATION_CYP_SCORE_WEIGHTED,Eduation CYP Subdomain Score,Education CYP Score,IMD Domains and Subdomains,DBL
+EDUCATION_ADULT_SCORE_WEIGHTED,Eduation Adults Subdomain Score,Education Adults Score,IMD Domains and Subdomains,DBL
+BARRIERS_GEOGRAPHICAL_SCORE_WEIGHTED,Barriers Geographical Barriers Subdomain Score,Geographical Barriers Score,IMD Domains and Subdomains,DBL
+BARRIERS_WIDER_SCORE_WEIGHTED,Barriers Wider Barriers Subdomain Score,Wider Barriers Score,IMD Domains and Subdomains,DBL
+ENVIRONMENT_INDOOR_SCORE_WEIGHTED,Living Environment Indoor Subdomain Score,Environment Indoor Score,IMD Domains and Subdomains,DBL
+ENVIRONMENT_OUTDOOR_SCORE_WEIGHTED,Living Environment Outdoor Subdomain Score,Environment Outdoor Score,IMD Domains and Subdomains,DBL
+INCOME_NUMERATOR_WEIGHTED,Income Numerator,Income Numerator,IMD Underlying Indicators,DBL
+IDACI_NUMERATOR_WEIGHTED,IDACI Numerator,IDACI Numerator,IMD Underlying Indicators,DBL
+IDAOPI_NUMERATOR_WEIGHTED,IDAOPI Numerator,IDAOPI Numerator,IMD Underlying Indicators,DBL
+EMPLOYMENT_NUMERATOR_WEIGHTED,Employment Numerator,Employment Numerator,IMD Underlying Indicators,DBL
+EDUCATION_ADULT_LANGUAGE_PROFICIENCY_WEIGHTED,Education Adult Language Proficiency,Adult Language,IMD Underlying Indicators,DBL
+EDUCATION_CYP_HIGHER_EDUCATION_ENTRY_WEIGHTED,Education CYP Higher Education Entry,CYP Higher Education,IMD Underlying Indicators,DBL
+HEALTH_ACUTE_MORBIDITY_WEIGHTED,Health Acute Morbidity,Acute Morbidity,IMD Underlying Indicators,DBL
+HEALTH_ILLNESS_AND_DISABILITY_RATIO_WEIGHTED,Health Illness and Disability Ratio,Illness and Disability Ratio,IMD Underlying Indicators,DBL
+HEALTH_MENTAL_HEALTH_WEIGHTED,Health Mental Health,Mental Health,IMD Underlying Indicators,DBL
+HEALTH_YLL_WEIGHTED,Health Years of Life Lost,Years of Life Lost,IMD Underlying Indicators,DBL
+CRIME_VIOLENCE_WITH_INJURY_WEIGHTED,Crime Violence with Injury,Violence with Injury,IMD Underlying Indicators,DBL
+CRIME_VIOLENCE_WITHOUT_INJURY_WEIGHTED,Crime Violence without Injury,Violence without Injury,IMD Underlying Indicators,DBL
+CRIME_STALKING_HARASSMENT_WEIGHTED,Crime Stalking and Harassment,Stalking and Harrassment,IMD Underlying Indicators,DBL
+CRIME_BURGLARY_WEIGHTED,Crime Burglary,Burglary,IMD Underlying Indicators,DBL
+CRIME_THEFT_WEIGHTED,Crime Theft,Theft,IMD Underlying Indicators,DBL
+CRIME_CRIMINAL_DAMAGE_WEIGHTED,Crime Criminal Damage,Criminal Damage,IMD Underlying Indicators,DBL
+CRIME_PUBLIC_ORDER_WEIGHTED,Crime Public Order,Public Order,IMD Underlying Indicators,DBL
+CRIME_ASB_WEIGHTED,Crime Antisocial Behaviour,Antisocial Behaviour,IMD Underlying Indicators,DBL
+BARRIERS_CONNECTIVITY_WEIGHTED,Barriers Connectivity,Connectivity,IMD Underlying Indicators,DBL
+BARRIERS_OWNER_OCCUPIER_AFFORDABILITY_WEIGHTED,Barriers Owner Occupier Affordability,Owner Affordability,IMD Underlying Indicators,DBL
+BARRIERS_PRIVATE_RENTAL_AFFORDABILITY_WEIGHTED,Barriers Private Rental Affordability,Private Rental Affordability,IMD Underlying Indicators,DBL
+BARRIERS_HOUSING_AFFORDABILITY_WEIGHTED,Barriers Housing Affordability,Housing Affordability,IMD Underlying Indicators,DBL
+BARRIERS_DIGITAL_CONNECTIVITY_WEIGHTED,Barriers Digital Connectivity,Digitial Connectivity,IMD Underlying Indicators,DBL
+BARRIERS_CORE_HOMELESSNESS_WEIGHTED,Barriers Core Homelessness,Core Homelessness,IMD Underlying Indicators,DBL
+BARRIERS_PATIENT_TO_GP_WEIGHTED,Barriers Patient to GP Ratio,Patient to GP Ratio,IMD Underlying Indicators,DBL
+BARRIERS_HOMELESSNESS_RATE_WEIGHTED,Barriers Homelessness Rate,Homelessness Rate,IMD Underlying Indicators,DBL
+BARRIERS_OVERCROWDING_ROOMS_WEIGHTED,Barriers Overcrowding Rooms,Overcrowding Rooms,IMD Underlying Indicators,DBL
+BARRIERS_OVERCROWDING_BEDROOMS_WEIGHTED,Barriers Overcrowding Bedrooms,Overcrowding Bedrooms,IMD Underlying Indicators,DBL
+ENVIRONMENT_POOR_HOUSING_WEIGHTED,Living Environment Poor Housing,Poor Housing,IMD Underlying Indicators,DBL
+ENVIRONMENT_ENERGY_PERFORMANCE_WEIGHTED,Living Environment Energy Performance,Energy Performance,IMD Underlying Indicators,DBL
+ENVIRONMENT_LACK_OF_OUTDOOR_SPACE_WEIGHTED,Living Environment Lack of Outdoor Space,Lack of Outdoor Space,IMD Underlying Indicators,DBL
+ENVIRONMENT_NOISE_POLLUTION_WEIGHTED,Living Environment Noise Pollution,Noise Pollution,IMD Underlying Indicators,DBL
+ENVIRONMENT_TRAFFIC_CASUALITIES_WEIGHTED,Living Environment Traffic Casualities,Traffic Casualities,IMD Underlying Indicators,DBL
+ENVIRONMENT_SUPLHUR_DIOXIDE_WEIGHTED,Living Environment Sulphur Dioxide,Sulphur Dioxide,IMD Underlying Indicators,DBL
+ENVIRONMENT_NITROGEN_DIOXIDE_WEIGHTED,Living Environment Nitrogen Dioxide,Nitrogen Dioxide,IMD Underlying Indicators,DBL
+ENVIRONMENT_BENZENE_WEIGHTED,Living Environment Benzene,Benzene,IMD Underlying Indicators,DBL
+ENVIRONMENT_PARTICULATES_WEIGHTED,Living Environment Particulates,Particulates,IMD Underlying Indicators,DBL
+ENVIRONMENT_AIR_QUALITY_WEIGHTED,Living Environment Air Quality,Air Quality,IMD Underlying Indicators,DBL
+LIST_SIZE,List Size,List Size,NHSE Payments,DBL
+WEIGHTED_LIST_SIZE,Weight List Size,Weight List Size,NHSE Payments,DBL
+TOTAL_PAYMENTS,Total Payments,Total Payments,NHSE Payments,CUR
+MEAN_PAYMENTS,Mean Payments,Mean Payments,NHSE Payments,CUR
+MEAN_WEIGHTED_PAYMENTS,Weighted Payments,Weighted Payments,NHSE Payments,CUR
+QOF_PREV_AF,Atrial fibrillation prevalence,Atrial fibrillation prevalence,QOF Prevalence,PCT
+QOF_PREV_AST,Asthma prevalence,Asthma prevalence,QOF Prevalence,PCT
+QOF_PREV_CAN,Cancer prevalence,Cancer prevalence,QOF Prevalence,PCT
+QOF_PREV_CHD,Coronary heart disease prevalence,Coronary heart disease prevalence,QOF Prevalence,PCT
+QOF_PREV_CKD,Chronic kidney disease prevalence,Chronic kidney disease prevalence,QOF Prevalence,PCT
+QOF_PREV_COPD,Chronic obstructive pulmonary disease prevalence,Chronic obstructive pulmonary disease prevalence,QOF Prevalence,PCT
+QOF_PREV_DEM,Dementia prevalence,Dementia prevalence,QOF Prevalence,PCT
+QOF_PREV_DEP,Depression prevalence,Depression prevalence,QOF Prevalence,PCT
+QOF_PREV_DM,Diabetes mellitus prevalence,Diabetes mellitus prevalence,QOF Prevalence,PCT
+QOF_PREV_EP,Epilepsy prevelance,Epilepsy prevelance,QOF Prevalence,PCT
+QOF_PREV_HF,Heart failure prevalence,Heart failure prevalence,QOF Prevalence,PCT
+QOF_PREV_HYP,Hypertension prevalence,Hypertension prevalence,QOF Prevalence,PCT
+QOF_PREV_LD,Learning disability prevalence,Learning disability prevalence,QOF Prevalence,PCT
+QOF_PREV_MH,Mental health prevelance,Mental health prevelance,QOF Prevalence,PCT
+QOF_PREV_NDH,Non-diabetic hyperglycaemia,Non-diabetic hyperglycaemia,QOF Prevalence,PCT
+QOF_PREV_OB,Obesity prevalence,Obesity prevalence,QOF Prevalence,PCT
+QOF_PREV_OST,Osteoporosis prevalence,Osteoporosis prevalence,QOF Prevalence,PCT
+QOF_PREV_PAD,Peripheral vasculare disease prevalence,Peripheral vasculare disease prevalence,QOF Prevalence,PCT
+QOF_PREV_PC,Palliative care prevalence,Palliative care prevalence,QOF Prevalence,PCT
+QOF_PREV_RA,Rheumatoid arthritis prevalence,Rheumatoid arthritis prevalence,QOF Prevalence,PCT
+QOF_PREV_STIA,Stroke and transient ischaemic attack prevalence,Stroke and TIA prevalence,QOF Prevalence,PCT
+PRACTICE_WORKFORCE_ADMIN,PCN Aggregate of Practice Workforce - Administrative FTE,Administrative FTE,Workforce,DBL
+PRACTICE_WORKFORCE_DPC,PCN Aggregate of Practice Workforce - Direct Patient Care FTE,Direct Patient Care FTE,Workforce,DBL
+PRACTICE_WORKFORCE_GP,PCN Aggregate of Practice Workforce - General Practitioners FTE,General Practitioners FTE,Workforce,DBL
+PRACTICE_WORKFORCE_NURSE,PCN Aggregate of Practice Workforce - Nursing FTE,Nursing FTE,Workforce,DBL
+PCN_WORKFORCE_ADMIN,PCN Workforce - Administrative FTE,PCN Administrative FTE,Workforce,DBL
+PCN_WORKFORCE_DPC,PCN Workforce - Direct Patient Care FTE,PCN Direct Patient Care FTE,Workforce,DBL
+PCN_WORKFORCE_GP,PCN Workforce - General Practitioners FTE,PCN General Practitioners FTE,Workforce,DBL
+PCN_WORKFORCE_NURSE,PCN Workforce - Nursing FTE,PCN Nursing FTE,Workforce,DBL
+PCN_WORKFORCE_DIR,PCN Workforce - Directors FTE,PCN Directors FTE,Workforce,DBL
+QOF_ACHV_AF006,The percentage of patients with atrial fibrillation in whom stroke risk has been assessed using the CHA2DS2-VASc score risk stratification scoring system in the preceding 12 months (excluding those patients with a previous CHADS2 or CHA2DS2-VASc score of 2 or more),AF006 Achievement,QOF Achievement,PCT
+QOF_ACHV_AF008,"Percentage of patients on the QOF Atrial Fibrillation register and with a CHA2DS2-VASc score 2 or more, who were prescribed a direct-acting oral anticoagulant (DOAC), or, where a DOAC was declined or clinically unsuitable, a Vitamin K antagonist",AF008 Achievement,QOF Achievement,PCT
+QOF_ACHV_AST007,"The percentage of patients with asthma, on the register, who have had an asthma review in the preceding 12 months that includes an assessment of asthma control using a validated asthma control questionnaire, a recording of the number of exacerbations, an assessment of inhaler technique and a written personalised asthma plan.",AST007 Achievement,QOF Achievement,PCT
+QOF_ACHV_AST008,"The percentage of patients with asthma on the register aged 19 years or under, in whom there is a record of either personal smoking status or exposure to secondhand smoke in the preceding 12 months.",AST008 Achievement,QOF Achievement,PCT
+QOF_ACHV_AST011,"The percentage of patients with a diagnosis of asthma on or after 1 April 2023  with either:  1. A record of quality assured spirometry and one other objective test (FeNO or, bronchodilator reversibility or peak flow variability) between 3 months before or 6 months after diagnosis; or 2. If newly registered in the preceding 12 months with a diagnosis of asthma recorded on or after 1 April 2023 but no record of objective tests being performed at the date of the registration, with a quality assured spirometry and one other objective test (FeNO or bronchodilator reversibility or peak flow variability) recorded within 6 months of the registration. ",AST011 Achievement,QOF Achievement,PCT
+QOF_ACHV_BP002,The percentage of patients aged 45 or over who have a record of blood pressure in the preceding 5 years,BP002 Achievement,QOF Achievement,PCT
+QOF_ACHV_CAN004,"The percentage of patients with cancer, diagnosed within the preceding 24 months, who have a patient Cancer Care Review using a structured template recorded as occurring within 12 months of diagnosis",CAN004 Achievement,QOF Achievement,PCT
+QOF_ACHV_CAN005,"The percentage of patients with cancer, diagnosed within the preceding 12 months, who have had the opportunity for a discussion and informed of the support available from primary care, within 3 months of diagnosis.",CAN005 Achievement,QOF Achievement,PCT
+QOF_ACHV_CHD005,"The percentage of patients with coronary heart disease with a record in the preceding 12 months that aspirin, an alternative anti-platelet therapy, or an anti-coagulant is being taken ",CHD005 Achievement,QOF Achievement,PCT
+QOF_ACHV_CHD015,"The percentage of patients aged 79 years or under, with coronary heart disease, in whom the last blood pressure reading (measured in the preceding 12 months) is 140/90 mmHg or less (or equivalent home blood pressure reading)",CHD015 Achievement,QOF Achievement,PCT
+QOF_ACHV_CHD016,"The percentage of patients aged 80 years or over, with coronary heart disease, in whom the last blood pressure reading (measured in the preceding 12 months) is 150/90 mmHg or less (or equivalent home blood pressure reading)",CHD016 Achievement,QOF Achievement,PCT
+QOF_ACHV_CHOL003,"Percentage of patients on the QOF Coronary Heart Disease (CHD), Peripheral Arterial Disease (PAD), Stroke/Transient Ischaemic Attack (TIA) or Chronic Kidney Disease (CKD) Register who are currently prescribed a statin, or where a statin is declined or clinically unsuitable, another lipid-lowering therapy",CHOL003 Achievement,QOF Achievement,PCT
+QOF_ACHV_CHOL004,"Percentage of patients on the QOF Coronary Heart Disease (CHD), Peripheral Arterial Disease (PAD), or Stroke/Transient Ischaemic Attack (TIA) Register, who have a recording of LDL (Low-density Lipoprotein) cholesterol in the preceding 12 months that is 2.0 mmol/L or lower or where LDL cholesterol is not recorded a recording of non-HDL (High-density Lipoprotein) cholesterol in the preceding 12 months that is 2.6 mmol/L or lower.",CHOL004 Achievement,QOF Achievement,PCT
+QOF_ACHV_COPD010,"The percentage of patients with COPD, on the register, who have had a review in the preceding 12 months which included a record of the number of exacerbations and an assessment of breathlessness using the Medical Research Council dyspnoea scale",COPD010 Achievement,QOF Achievement,PCT
+QOF_ACHV_COPD014,"The percentage of patients with COPD and Medical Research Council (MRC) dyspnoea scale >=3 at any time in the preceding 12 months, with a subsequent record of referral to a pulmonary rehabilitation programme (excluding those who have previously attended a pulmonary rehabilitation programme)",COPD014 Achievement,QOF Achievement,PCT
+QOF_ACHV_CS005,The percentage of women eligible for screening and aged 25-49 years at the end of the reporting period whose notes record that an adequate cervical screening test has been performed in the preceding 3 years and 6 months.,CS005 Achievement,QOF Achievement,PCT
+QOF_ACHV_CS006,The percentage of women eligible for screening and aged 50-64 years at the end of the reporting period whose notes record that an adequate cervical screening test has been performed in the preceding 5 years and 6 months.,CS006 Achievement,QOF Achievement,PCT
+QOF_ACHV_DEM004,The percentage of patients diagnosed with dementia whose care plan has been reviewed in the preceding 12 months,DEM004 Achievement,QOF Achievement,PCT
+QOF_ACHV_DEP004,"The percentage of patients aged 18 or over with a new diagnosis of depression in the preceding 1 April to 31 March, who have been reviewed not earlier than 10 days after and not later than 56 days after the date of diagnosis",DEP004 Achievement,QOF Achievement,PCT
+QOF_ACHV_DM006,"The percentage of patients with diabetes, on the register, with a diagnosis of nephropathy (clinical proteinuria) or micro-albuminuria who are currently treated with an ACE-I (or ARBs)",DM006 Achievement,QOF Achievement,PCT
+QOF_ACHV_DM012,"The percentage of patients with diabetes, on the register, with a record of a foot examination and risk classification: 1) low risk (normal sensation, palpable pulses), 2) increased risk (neuropathy or absent pulses), 3) high risk (neuropathy or absent pulses plus deformity or skin changes in previous ulcer) or 4) ulcerated foot within the preceding 12 months",DM012 Achievement,QOF Achievement,PCT
+QOF_ACHV_DM014,"The percentage of patients newly diagnosed with diabetes, on the register, in the preceding 1 April to 31 March who have a record of being referred to a structured education programme within 9 months after entry on to the diabetes register",DM014 Achievement,QOF Achievement,PCT
+QOF_ACHV_DM020,"The percentage of patients with diabetes, on the register, without moderate or severe frailty in whom the last IFCC-HbA1c is 58 mmol/mol or less in the preceding 12 months.",DM020 Achievement,QOF Achievement,PCT
+QOF_ACHV_DM021,"The percentage of patients with diabetes, on the register, with moderate or severe frailty in whom the last IFCC-HbA1c is 75 mmol/mol or less in the preceding 12 months.",DM021 Achievement,QOF Achievement,PCT
+QOF_ACHV_DM022,"The percentage of patients with diabetes, on the register, aged 40 years or over, with no history of CVD and without moderate or severe frailty, who are currently treated with a statin (excluding patients with type 2 diabetes and a CVD risk score of <10% recorded in the preceding 3 years).",DM022 Achievement,QOF Achievement,PCT
+QOF_ACHV_DM023,"The percentage of patients with diabetes, on the register, and a history of CVD (excluding haemorrhagic stroke) who are currently treated with a statin.",DM023 Achievement,QOF Achievement,PCT
+QOF_ACHV_DM033,"The percentage of patients with diabetes, on the register, without moderate or severe frailty in whom the last blood pressure reading (measured in the preceding 12 months) is 140/90 mmHg or less (or equivalent home blood pressure reading)",DM033 Achievement,QOF Achievement,PCT
+QOF_ACHV_HF003,In those patients with a diagnosis of heart failure due to left ventricular systolic dysfunction or whose heart failure is due to reduced ejection fraction the percentage of patients who are currently treated with an angiotensin-converting enzyme inhibitor (ACE-I) or Angiotensin II receptor blockers (ARB),HF003 Achievement,QOF Achievement,PCT
+QOF_ACHV_HF006,"The percentage of patients with a diagnosis of heart failure due to left ventricular systolic dysfunction or whose heart failure is due to reduced ejection fracture fraction, who are currently treated with a beta-blocker licensed for heart failure",HF006 Achievement,QOF Achievement,PCT
+QOF_ACHV_HF007,"The percentage of patients with a diagnosis of heart failure on the register, who have had a review in the preceding 12 months, including an assessment of functional capacity and a review of medication to ensure medicines optimisation at maximal tolerated doses",HF007 Achievement,QOF Achievement,PCT
+QOF_ACHV_HF008,"The percentage of patients with a diagnosis of heart failure on or after 1 April 2023 which: 1. Has been confirmed by an echocardiogram or by specialist assessment in the 6 months before entering on to the register; or 2. If registered at the practice after diagnosis, with no record of the diagnosis originally being confirmed either by echocardiogram or by specialist assessment, a record of an echocardiogram or a specialist assessment within 6 months of the date of registration. ",HF008 Achievement,QOF Achievement,PCT
+QOF_ACHV_HYP008,The percentage of patients aged 79 years or under with hypertension in whom the last blood pressure reading (measured in the preceding 12 months) is 140/90 mmHg or less (or equivalent home blood pressure reading),HYP008 Achievement,QOF Achievement,PCT
+QOF_ACHV_HYP009,"The percentage of patients aged 80 years or over, with hypertension, in whom the last blood pressure reading (measured in the preceding 12 months) is 150/90 mmHg or less (or equivalent home blood pressure reading)",HYP009 Achievement,QOF Achievement,PCT
+QOF_ACHV_MH002,"The percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who have a comprehensive care plan documented in the record, in the preceding 12 months, agreed between individuals, their family and/or carers as appropriate",MH002 Achievement,QOF Achievement,PCT
+QOF_ACHV_MH003,"The percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who have a record of blood pressure in the preceding 12 months",MH003 Achievement,QOF Achievement,PCT
+QOF_ACHV_MH006,"The percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who have a record of BMI in the preceding 12 months.",MH006 Achievement,QOF Achievement,PCT
+QOF_ACHV_MH007,"The percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who have a record of alcohol consumption in the preceding 12 months",MH007 Achievement,QOF Achievement,PCT
+QOF_ACHV_MH011,"The percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who have a record of a lipid profile in the preceding 12 months (in those patients currently prescribed antipsychotics, and/or have pre-existing cardiovascular conditions, and/or smoke, and/or are overweight (BMI of >= 23 kg/m2 or >= 25 kg/m2 if ethnicity is recorded as White)) or preceding 24 months for all other patients",MH011 Achievement,QOF Achievement,PCT
+QOF_ACHV_MH012,"The percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who have a record of blood glucose or HbA1c in the preceding 12 months",MH012 Achievement,QOF Achievement,PCT
+QOF_ACHV_MH021,"Percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who received all six elements of the Physical Health Check for people with Severe Mental Illness",MH021 Achievement,QOF Achievement,PCT
+QOF_ACHV_NDH002,The percentage of patients with non-diabetic hyperglycaemia who have had an HbA1c or fasting blood glucose performed in the preceding 12 months,NDH002 Achievement,QOF Achievement,PCT
+QOF_ACHV_SMOK002,"The percentage of patients with any or any combination of the following conditions: CHD, PAD, stroke or TIA, hypertension, diabetes, COPD, CKD, asthma, schizophrenia, bipolar affective disorder or other psychoses whose notes record smoking status in the preceding 12 months",SMOK002 Achievement,QOF Achievement,PCT
+QOF_ACHV_SMOK004,The percentage of patients aged 15 or over who are recorded as current smokers who have a record of an offer of support and treatment within the preceding 24 months,SMOK004 Achievement,QOF Achievement,PCT
+QOF_ACHV_SMOK005,"The percentage of patients with any or any combination of the following conditions: CHD, PAD, stroke or TIA, hypertension, diabetes, COPD, CKD, asthma, schizophrenia, bipolar affective disorder or other psychoses who are recorded as current smokers who have a record of an offer of support and treatment within the preceding 12 months",SMOK005 Achievement,QOF Achievement,PCT
+QOF_ACHV_STIA007,"The percentage of patients with a stroke shown to be non-haemorrhagic, or a history of TIA, who have a record in the preceding 12 months that an anti-platelet agent, or an anti-coagulant is being taken ",STIA007 Achievement,QOF Achievement,PCT
+QOF_ACHV_STIA014,"The percentage of patients aged 79 years or under, with a history of stroke or TIA, in whom the last blood pressure reading (measured in the preceding 12 months) is 140/90 mmHg or less (or equivalent home blood pressure reading)",STIA014 Achievement,QOF Achievement,PCT
+QOF_ACHV_STIA015,"The percentage of patients aged 80 years or over, with a history of stroke or TIA, in whom the last blood pressure reading (measured in the preceding 12 months) is 150/90 mmHg or less (or equivalent home blood pressure reading)",STIA015 Achievement,QOF Achievement,PCT
+QOF_ACHV_VI001,"The percentage of babies who reached 8 months old in the preceding 12 months, who have received at least 3 doses of a diphtheria, tetanus and pertussis containing vaccine before the age of 8 months ",VI001 Achievement,QOF Achievement,PCT
+QOF_ACHV_VI002,"The percentage of children who reached 18 months old in the preceding 12 months, who have received at least 1 dose of MMR between the ages of 12 and 18 months ",VI002 Achievement,QOF Achievement,PCT
+QOF_ACHV_VI003,"The percentage of children who reached 5 years old in the preceding 12 months, who have received a reinforcing dose of DTaP/IPV and at least 2 doses of MMR between the ages of 1 and 5 years. ",VI003 Achievement,QOF Achievement,PCT
+QOF_ACHV_VI004,"The percentage of patients who reached 80 years old in the preceding 12 months, who have received a shingles vaccine between the ages of 70 and 79 years.",VI004 Achievement,QOF Achievement,PCT
+QOF_PCA_AF006,Personalised Care Adjustments for AF006 - The percentage of patients with atrial fibrillation in whom stroke risk has been assessed using the CHA2DS2-VASc score risk stratification scoring system in the preceding 12 months (excluding those patients with a previous CHADS2 or CHA2DS2-VASc score of 2 or more),PCA Rate AF006,QOF Personalised Care Adjustments,PCT
+QOF_PCA_AF008,"Personalised Care Adjustments for AF008 - Percentage of patients on the QOF Atrial Fibrillation register and with a CHA2DS2-VASc score 2 or more, who were prescribed a direct-acting oral anticoagulant (DOAC), or, where a DOAC was declined or clinically unsuitable, a Vitamin K antagonist",PCA Rate AF008,QOF Personalised Care Adjustments,PCT
+QOF_PCA_AST007,"Personalised Care Adjustments for AST007 - The percentage of patients with asthma, on the register, who have had an asthma review in the preceding 12 months that includes an assessment of asthma control using a validated asthma control questionnaire, a recording of the number of exacerbations, an assessment of inhaler technique and a written personalised asthma plan.",PCA Rate AST007,QOF Personalised Care Adjustments,PCT
+QOF_PCA_AST008,"Personalised Care Adjustments for AST008 - The percentage of patients with asthma on the register aged 19 years or under, in whom there is a record of either personal smoking status or exposure to secondhand smoke in the preceding 12 months.",PCA Rate AST008,QOF Personalised Care Adjustments,PCT
+QOF_PCA_AST011,"Personalised Care Adjustments for AST011 - The percentage of patients with a diagnosis of asthma on or after 1 April 2023  with either:  1. A record of quality assured spirometry and one other objective test (FeNO or, bronchodilator reversibility or peak flow variability) between 3 months before or 6 months after diagnosis; or 2. If newly registered in the preceding 12 months with a diagnosis of asthma recorded on or after 1 April 2023 but no record of objective tests being performed at the date of the registration, with a quality assured spirometry and one other objective test (FeNO or bronchodilator reversibility or peak flow variability) recorded within 6 months of the registration. ",PCA Rate AST011,QOF Personalised Care Adjustments,PCT
+QOF_PCA_BP002,Personalised Care Adjustments for BP002 - The percentage of patients aged 45 or over who have a record of blood pressure in the preceding 5 years,PCA Rate BP002,QOF Personalised Care Adjustments,PCT
+QOF_PCA_CAN004,"Personalised Care Adjustments for CAN004 - The percentage of patients with cancer, diagnosed within the preceding 24 months, who have a patient Cancer Care Review using a structured template recorded as occurring within 12 months of diagnosis",PCA Rate CAN004,QOF Personalised Care Adjustments,PCT
+QOF_PCA_CAN005,"Personalised Care Adjustments for CAN005 - The percentage of patients with cancer, diagnosed within the preceding 12 months, who have had the opportunity for a discussion and informed of the support available from primary care, within 3 months of diagnosis.",PCA Rate CAN005,QOF Personalised Care Adjustments,PCT
+QOF_PCA_CHD005,"Personalised Care Adjustments for CHD005 - The percentage of patients with coronary heart disease with a record in the preceding 12 months that aspirin, an alternative anti-platelet therapy, or an anti-coagulant is being taken ",PCA Rate CHD005,QOF Personalised Care Adjustments,PCT
+QOF_PCA_CHD015,"Personalised Care Adjustments for CHD015 - The percentage of patients aged 79 years or under, with coronary heart disease, in whom the last blood pressure reading (measured in the preceding 12 months) is 140/90 mmHg or less (or equivalent home blood pressure reading)",PCA Rate CHD015,QOF Personalised Care Adjustments,PCT
+QOF_PCA_CHD016,"Personalised Care Adjustments for CHD016 - The percentage of patients aged 80 years or over, with coronary heart disease, in whom the last blood pressure reading (measured in the preceding 12 months) is 150/90 mmHg or less (or equivalent home blood pressure reading)",PCA Rate CHD016,QOF Personalised Care Adjustments,PCT
+QOF_PCA_CHOL003,"Personalised Care Adjustments for CHOL003 - Percentage of patients on the QOF Coronary Heart Disease (CHD), Peripheral Arterial Disease (PAD), Stroke/Transient Ischaemic Attack (TIA) or Chronic Kidney Disease (CKD) Register who are currently prescribed a statin, or where a statin is declined or clinically unsuitable, another lipid-lowering therapy",PCA Rate CHOL003,QOF Personalised Care Adjustments,PCT
+QOF_PCA_CHOL004,"Personalised Care Adjustments for CHOL004 - Percentage of patients on the QOF Coronary Heart Disease (CHD), Peripheral Arterial Disease (PAD), or Stroke/Transient Ischaemic Attack (TIA) Register, who have a recording of LDL (Low-density Lipoprotein) cholesterol in the preceding 12 months that is 2.0 mmol/L or lower or where LDL cholesterol is not recorded a recording of non-HDL (High-density Lipoprotein) cholesterol in the preceding 12 months that is 2.6 mmol/L or lower.",PCA Rate CHOL004,QOF Personalised Care Adjustments,PCT
+QOF_PCA_COPD010,"Personalised Care Adjustments for COPD010 - The percentage of patients with COPD, on the register, who have had a review in the preceding 12 months which included a record of the number of exacerbations and an assessment of breathlessness using the Medical Research Council dyspnoea scale",PCA Rate COPD010,QOF Personalised Care Adjustments,PCT
+QOF_PCA_COPD014,"Personalised Care Adjustments for COPD014 - The percentage of patients with COPD and Medical Research Council (MRC) dyspnoea scale >=3 at any time in the preceding 12 months, with a subsequent record of referral to a pulmonary rehabilitation programme (excluding those who have previously attended a pulmonary rehabilitation programme)",PCA Rate COPD014,QOF Personalised Care Adjustments,PCT
+QOF_PCA_CS005,Personalised Care Adjustments for CS005 - The percentage of women eligible for screening and aged 25-49 years at the end of the reporting period whose notes record that an adequate cervical screening test has been performed in the preceding 3 years and 6 months.,PCA Rate CS005,QOF Personalised Care Adjustments,PCT
+QOF_PCA_CS006,Personalised Care Adjustments for CS006 - The percentage of women eligible for screening and aged 50-64 years at the end of the reporting period whose notes record that an adequate cervical screening test has been performed in the preceding 5 years and 6 months.,PCA Rate CS006,QOF Personalised Care Adjustments,PCT
+QOF_PCA_DEM004,Personalised Care Adjustments for DEM004 - The percentage of patients diagnosed with dementia whose care plan has been reviewed in the preceding 12 months,PCA Rate DEM004,QOF Personalised Care Adjustments,PCT
+QOF_PCA_DEP004,"Personalised Care Adjustments for DEP004 - The percentage of patients aged 18 or over with a new diagnosis of depression in the preceding 1 April to 31 March, who have been reviewed not earlier than 10 days after and not later than 56 days after the date of diagnosis",PCA Rate DEP004,QOF Personalised Care Adjustments,PCT
+QOF_PCA_DM006,"Personalised Care Adjustments for DM006 - The percentage of patients with diabetes, on the register, with a diagnosis of nephropathy (clinical proteinuria) or micro-albuminuria who are currently treated with an ACE-I (or ARBs)",PCA Rate DM006,QOF Personalised Care Adjustments,PCT
+QOF_PCA_DM012,"Personalised Care Adjustments for DM012 - The percentage of patients with diabetes, on the register, with a record of a foot examination and risk classification: 1) low risk (normal sensation, palpable pulses), 2) increased risk (neuropathy or absent pulses), 3) high risk (neuropathy or absent pulses plus deformity or skin changes in previous ulcer) or 4) ulcerated foot within the preceding 12 months",PCA Rate DM012,QOF Personalised Care Adjustments,PCT
+QOF_PCA_DM014,"Personalised Care Adjustments for DM014 - The percentage of patients newly diagnosed with diabetes, on the register, in the preceding 1 April to 31 March who have a record of being referred to a structured education programme within 9 months after entry on to the diabetes register",PCA Rate DM014,QOF Personalised Care Adjustments,PCT
+QOF_PCA_DM020,"Personalised Care Adjustments for DM020 - The percentage of patients with diabetes, on the register, without moderate or severe frailty in whom the last IFCC-HbA1c is 58 mmol/mol or less in the preceding 12 months.",PCA Rate DM020,QOF Personalised Care Adjustments,PCT
+QOF_PCA_DM021,"Personalised Care Adjustments for DM021 - The percentage of patients with diabetes, on the register, with moderate or severe frailty in whom the last IFCC-HbA1c is 75 mmol/mol or less in the preceding 12 months.",PCA Rate DM021,QOF Personalised Care Adjustments,PCT
+QOF_PCA_DM022,"Personalised Care Adjustments for DM022 - The percentage of patients with diabetes, on the register, aged 40 years or over, with no history of CVD and without moderate or severe frailty, who are currently treated with a statin (excluding patients with type 2 diabetes and a CVD risk score of <10% recorded in the preceding 3 years).",PCA Rate DM022,QOF Personalised Care Adjustments,PCT
+QOF_PCA_DM023,"Personalised Care Adjustments for DM023 - The percentage of patients with diabetes, on the register, and a history of CVD (excluding haemorrhagic stroke) who are currently treated with a statin.",PCA Rate DM023,QOF Personalised Care Adjustments,PCT
+QOF_PCA_DM033,"Personalised Care Adjustments for DM033 - The percentage of patients with diabetes, on the register, without moderate or severe frailty in whom the last blood pressure reading (measured in the preceding 12 months) is 140/90 mmHg or less (or equivalent home blood pressure reading)",PCA Rate DM033,QOF Personalised Care Adjustments,PCT
+QOF_PCA_HF003,Personalised Care Adjustments for HF003 - In those patients with a diagnosis of heart failure due to left ventricular systolic dysfunction or whose heart failure is due to reduced ejection fraction the percentage of patients who are currently treated with an angiotensin-converting enzyme inhibitor (ACE-I) or Angiotensin II receptor blockers (ARB),PCA Rate HF003,QOF Personalised Care Adjustments,PCT
+QOF_PCA_HF006,"Personalised Care Adjustments for HF006 - The percentage of patients with a diagnosis of heart failure due to left ventricular systolic dysfunction or whose heart failure is due to reduced ejection fracture fraction, who are currently treated with a beta-blocker licensed for heart failure",PCA Rate HF006,QOF Personalised Care Adjustments,PCT
+QOF_PCA_HF007,"Personalised Care Adjustments for HF007 - The percentage of patients with a diagnosis of heart failure on the register, who have had a review in the preceding 12 months, including an assessment of functional capacity and a review of medication to ensure medicines optimisation at maximal tolerated doses",PCA Rate HF007,QOF Personalised Care Adjustments,PCT
+QOF_PCA_HF008,"Personalised Care Adjustments for HF008 - The percentage of patients with a diagnosis of heart failure on or after 1 April 2023 which:   1. Has been confirmed by an echocardiogram or by specialist assessment in the 6 months before entering on to the register; or 2. If registered at the practice after diagnosis, with no record of the diagnosis originally being confirmed either by echocardiogram or by specialist assessment, a record of an echocardiogram or a specialist assessment within 6 months of the date of registration. ",PCA Rate HF008,QOF Personalised Care Adjustments,PCT
+QOF_PCA_HYP008,Personalised Care Adjustments for HYP008 - The percentage of patients aged 79 years or under with hypertension in whom the last blood pressure reading (measured in the preceding 12 months) is 140/90 mmHg or less (or equivalent home blood pressure reading),PCA Rate HYP008,QOF Personalised Care Adjustments,PCT
+QOF_PCA_HYP009,"Personalised Care Adjustments for HYP009 - The percentage of patients aged 80 years or over, with hypertension, in whom the last blood pressure reading (measured in the preceding 12 months) is 150/90 mmHg or less (or equivalent home blood pressure reading)",PCA Rate HYP009,QOF Personalised Care Adjustments,PCT
+QOF_PCA_MH002,"Personalised Care Adjustments for MH002 - The percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who have a comprehensive care plan documented in the record, in the preceding 12 months, agreed between individuals, their family and/or carers as appropriate",PCA Rate MH002,QOF Personalised Care Adjustments,PCT
+QOF_PCA_MH003,"Personalised Care Adjustments for MH003 - The percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who have a record of blood pressure in the preceding 12 months",PCA Rate MH003,QOF Personalised Care Adjustments,PCT
+QOF_PCA_MH006,"Personalised Care Adjustments for MH006 - The percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who have a record of BMI in the preceding 12 months.",PCA Rate MH006,QOF Personalised Care Adjustments,PCT
+QOF_PCA_MH007,"Personalised Care Adjustments for MH007 - The percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who have a record of alcohol consumption in the preceding 12 months",PCA Rate MH007,QOF Personalised Care Adjustments,PCT
+QOF_PCA_MH011,"Personalised Care Adjustments for MH011 - The percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who have a record of a lipid profile in the preceding 12 months (in those patients currently prescribed antipsychotics, and/or have pre-existing cardiovascular conditions, and/or smoke, and/or are overweight (BMI of >= 23 kg/m2 or >= 25 kg/m2 if ethnicity is recorded as White)) or preceding 24 months for all other patients",PCA Rate MH011,QOF Personalised Care Adjustments,PCT
+QOF_PCA_MH012,"Personalised Care Adjustments for MH012 - The percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who have a record of blood glucose or HbA1c in the preceding 12 months",PCA Rate MH012,QOF Personalised Care Adjustments,PCT
+QOF_PCA_MH021,"Personalised Care Adjustments for MH021 - Percentage of patients with schizophrenia, bipolar affective disorder and other psychoses who received all six elements of the Physical Health Check for people with Severe Mental Illness",PCA Rate MH021,QOF Personalised Care Adjustments,PCT
+QOF_PCA_NDH002,Personalised Care Adjustments for NDH002 - The percentage of patients with non-diabetic hyperglycaemia who have had an HbA1c or fasting blood glucose performed in the preceding 12 months,PCA Rate NDH002,QOF Personalised Care Adjustments,PCT
+QOF_PCA_SMOK002,"Personalised Care Adjustments for SMOK002 - The percentage of patients with any or any combination of the following conditions: CHD, PAD, stroke or TIA, hypertension, diabetes, COPD, CKD, asthma, schizophrenia, bipolar affective disorder or other psychoses whose notes record smoking status in the preceding 12 months",PCA Rate SMOK002,QOF Personalised Care Adjustments,PCT
+QOF_PCA_SMOK004,Personalised Care Adjustments for SMOK004 - The percentage of patients aged 15 or over who are recorded as current smokers who have a record of an offer of support and treatment within the preceding 24 months,PCA Rate SMOK004,QOF Personalised Care Adjustments,PCT
+QOF_PCA_SMOK005,"Personalised Care Adjustments for SMOK005 - The percentage of patients with any or any combination of the following conditions: CHD, PAD, stroke or TIA, hypertension, diabetes, COPD, CKD, asthma, schizophrenia, bipolar affective disorder or other psychoses who are recorded as current smokers who have a record of an offer of support and treatment within the preceding 12 months",PCA Rate SMOK005,QOF Personalised Care Adjustments,PCT
+QOF_PCA_STIA007,"Personalised Care Adjustments for STIA007 - The percentage of patients with a stroke shown to be non-haemorrhagic, or a history of TIA, who have a record in the preceding 12 months that an anti-platelet agent, or an anti-coagulant is being taken ",PCA Rate STIA007,QOF Personalised Care Adjustments,PCT
+QOF_PCA_STIA014,"Personalised Care Adjustments for STIA014 - The percentage of patients aged 79 years or under, with a history of stroke or TIA, in whom the last blood pressure reading (measured in the preceding 12 months) is 140/90 mmHg or less (or equivalent home blood pressure reading)",PCA Rate STIA014,QOF Personalised Care Adjustments,PCT
+QOF_PCA_STIA015,"Personalised Care Adjustments for STIA015 - The percentage of patients aged 80 years or over, with a history of stroke or TIA, in whom the last blood pressure reading (measured in the preceding 12 months) is 150/90 mmHg or less (or equivalent home blood pressure reading)",PCA Rate STIA015,QOF Personalised Care Adjustments,PCT
+QOF_PCA_VI001,"Personalised Care Adjustments for VI001 - The percentage of babies who reached 8 months old in the preceding 12 months, who have received at least 3 doses of a diphtheria, tetanus and pertussis containing vaccine before the age of 8 months ",PCA Rate VI001,QOF Personalised Care Adjustments,PCT
+QOF_PCA_VI002,"Personalised Care Adjustments for VI002 - The percentage of children who reached 18 months old in the preceding 12 months, who have received at least 1 dose of MMR between the ages of 12 and 18 months ",PCA Rate VI002,QOF Personalised Care Adjustments,PCT
+QOF_PCA_VI003,"Personalised Care Adjustments for VI003 - The percentage of children who reached 5 years old in the preceding 12 months, who have received a reinforcing dose of DTaP/IPV and at least 2 doses of MMR between the ages of 1 and 5 years. ",PCA Rate VI003,QOF Personalised Care Adjustments,PCT
+QOF_PCA_VI004,"Personalised Care Adjustments for VI004 - The percentage of patients who reached 80 years old in the preceding 12 months, who have received a shingles vaccine between the ages of 70 and 79 years.",PCA Rate VI004,QOF Personalised Care Adjustments,PCT
