@@ -105,12 +105,55 @@ Neighbour sets are produced for:
 ## Repository Structure
 
 ```text
-/
-├── create_neighbour_data.R
+primary_care_nearest_neighbour/
+
 ├── app.R
 ├── global.R
 ├── server.R
 ├── ui.R
-├── data/
+├── create_neighbour_data.R
+│
 ├── www/
-└── README.md
+│   ├── hisw.css
+│   ├── HISW_Logo_RGB_Negative.png
+│   ├── methodology.html
+│   └── data_sources.html
+│
+├── sample_data/
+│   ├── df_practice_data_SAMPLE.csv
+│   ├── df_pcn_data_SAMPLE.csv
+│   ├── df_top10_practices_SAMPLE.csv
+│   └── df_top10_pcn_SAMPLE.csv
+│
+├── links.txt
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── .gitignore
+```
+
+### Files
+
+| File | Purpose |
+|--------|----------|
+| `create_neighbour_data.R` | Creates all analytical datasets and neighbour tables |
+| `app.R` | Application entry point |
+| `global.R` | Loads packages, data and helper objects |
+| `ui.R` | User interface definition |
+| `server.R` | Server-side application logic |
+| `links.txt` | Download locations for all source datasets |
+| `www/` | Static web assets and documentation |
+| `sample_data/` | Example outputs for demonstration and testing |
+
+### Excluded Content
+
+The following items are intentionally excluded from the repository:
+
+- Raw source datasets
+- Downloaded NHS publications
+- Census extracts
+- IMD datasets
+- Generated `.RObj` files
+- Large derived analytical datasets
+
+These can all be recreated using the scripts provided in this repository.
